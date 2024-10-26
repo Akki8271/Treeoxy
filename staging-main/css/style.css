@@ -361,7 +361,7 @@ ol {
 	position: absolute;
 	left: 0;
 	top: 62px;
-	width: 140px;
+	width: 210px;
 	background: #ffffff;
 	text-align: left;
 	padding: 5px 0;
@@ -3196,3 +3196,20 @@ ol {
 	color: #991024;
 	padding-left: 15px;
   }
+
+  .blog-category, .recent-post, .archive, .popular-tag {
+    border: 1px solid #ddd;
+    padding: 10px 30px 20px;
+    margin: 20px 0;
+}
+.blog-category h5, .archive h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 25px 0;
+}
+.blog-category a, .archive a {
+    display: block;
+    color: #191919;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
