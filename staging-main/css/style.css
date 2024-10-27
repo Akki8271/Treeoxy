@@ -3213,3 +3213,169 @@ ol {
     font-size: 16px;
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+/* Project Details Section */
+.project-details {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+.project-description {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-description img.project-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.project-description h3 {
+    font-size: 24px;
+    color: #991024;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.project-description p {
+    color: #333;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* Service List */
+.service-list {
+    background: linear-gradient(90deg, #1d232f, #991024 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.service-list h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.service-list a {
+    display: block;
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.service-list a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.service-list a.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+}
+
+/* Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Client Reviews Section */
+.client-reviews {
+    padding: 60px 0;
+    background-color: #f4f6f8;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.reviews-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+.review-card {
+    background: linear-gradient(90deg, #1d232f, #991024 100%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 300px; /* Adjust based on design */
+    max-width: 300px;
+    text-align: left;
+}
+
+.stars {
+    color: #f5b301;
+    font-size: 20px;
+}
+
+.review-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.review-text {
+    font-size: 14px;
+    /* color: #555; */
+    color: grey;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.client-photo {
+    /* width: 40px;
+    height: 40px; */
+	height: 60px;
+    width: 60px !important;
+    border-radius: 50%;
+}
+
+.client-name {
+    font-size: 14px;
+    color: #fff;
+}
+
+.client-name span {
+    display: block;
+    font-size: 12px;
+    color: #888;
+}
+
+.see-all-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.see-all-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
